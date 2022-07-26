@@ -1,1 +1,1 @@
-worker: ts-node-dev --respawn --transpile-only --poll ./src/index.ts
+worker: npm run dev
