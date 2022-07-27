@@ -8,7 +8,8 @@
     "start": "ts-node ./src/index.ts",
     "respawn": "node dist/index.js",
     "format": "prettier --write .",
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "tsc"
   },
   "author": "drago26",
   "license": "MIT",
